@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=firefox"> -->
+        <title>Traveling Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaisei+Opti&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="traveler.css">
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <main>
+            <section id="Banner">
+                <div class="txt_ban">
+                    <h1>Welcome to journey</h1>
+                    <p>We are here to guide you</p>
+                    <div class="scd">
+                        <div class='scrolldown'>
+                            <div class="chevrons">
+                                <div class='chevrondown'></div>
+                                <div class='chevrondown'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="why">
+                <div class="wcu">
+                    <h1>Why choose Us  </h1><h1 class="qu"> ?</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form, by injected humour, 
+                        or randomised words which don't look even slightly believable. 
+                        If you are going to use a passage of Lorem Ipsum, 
+                        you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                        All the Lorem Ipsum generators on the Internet tend to repeat 
+                        predefined chunks as necessary, making this the first true generator on the Internet.
+                    </p>
+                </div>
+            </section>
+            <section id="palace">
+                <h1>Guidness</h1>
+                <p>Here's our cultural guide</p>
+                <div class="parts">
+                    <div class="part" id="buggy">
+                        <img src="Pics/amogh-manjunath.jpg" alt="">
+                        <div class="Over">
+                        </div>
+                        <div class="part-disc">
+                            <h2>Sunfransisco</h2>
+                            <hr>
+                            <p>
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                            to generate Lorem Ipsum which looks reasonable.</p>
+                        </div>
+                    </div>
+                    <div class="part">
+                        <img src="Pics/annie-spratt-75gcu08p9TY-unsplash.jpg" alt="">
+                        <div class="Over">
+                        </div>
+                        <div class="part-disc">
+                            <h2>India</h2>
+                            <hr>
+                            <p>
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                            to generate Lorem Ipsum which looks reasonable.</p>
+                        </div>
+                    </div>
+                    <div class="part">
+                        <img src="Pics/ilnur-kalimullin.jpg" alt="">
+                        <div class="Over">
+                        </div>
+                        <div class="part-disc">
+                            <h2>France</h2>
+                            <hr>
+                            <p>
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                            to generate Lorem Ipsum which looks reasonable.</p>
+                        </div>
+                    </div>
+                    <div class="part">
+                        <img src="Pics/ssss.jpg" alt="">
+                        <div class="Over">
+                        </div>
+                        <div class="part-disc">
+                            <h2>Rome</h2>
+                            <hr>
+                            <p>
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                            to generate Lorem Ipsum which looks reasonable.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="travel_now">
+                    <img src="Pics/daniel-kainz-sP2tq6u8eQc-unsplash.jpg" alt="">
+                    <div class="ban-txt">
+                        <div class="wrapper">
+                            <h2>You decided ?</h2>
+                            <a href="login.html"><span>Travel Now</span></a>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <footer>
+            <section id="foot">
+                <div class="titf">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="foot-flx">
+                    <div class="fl">
+                        <h2>Designer :</h2>
+                        <p> Mahdi Maghsudi </p>
+                        <p> Front End Project</p>
+                    </div>
+                    <div class="fl">
+                        <h2>Contact Way :</h2>
+                        <p>Email : m.maghsud81@gmail.com</p>
+                        <p>Tel Id : @Do_U_look_sth </p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>   
+</html>
